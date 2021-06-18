@@ -10,7 +10,7 @@ This is a simple webapplication build in rails.Its meant to test the implementat
 
 ## Live Demo
 
-[Live Demo Link](https://firstrail21.herokuapp.com/)
+[Live Demo Link](https://firstrail2021.herokuapp.com/)
 
 ## Getting Started
 
