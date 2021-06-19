@@ -28,17 +28,10 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
     if @user.update(user_params)
-      redirect_to @user
+      edit_user_path(@user)
     else
       render :edit
     end
-    # @user = User.find(params[:id])
-
-    # if @user.update(user_params)
-    #   redirect_to @user
-    # else
-    #   render :edit
-    # end
   end
 
   def destroy
